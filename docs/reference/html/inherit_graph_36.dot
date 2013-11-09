@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::is_base_and_derived\l\< T_base, T_derived \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1is__base__and__derived.html",tooltip="Compile-time determination of base-class relationship in C++ (adapted to match the syntax of boost&#39;s ..."];
+}

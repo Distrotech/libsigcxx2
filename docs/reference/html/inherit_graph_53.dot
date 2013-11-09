@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::volatile_limit\l_reference\< T_type, I\l_derives_trackable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1volatile__limit__reference.html",tooltip="A volatile_limit_reference&lt;Foo&gt; object stores a reference (Foo&amp;), but make sure that, if Foo inherits from sigc::trackable, then visit_each&lt;&gt;() will &quot;limit&quot; itself to the sigc::trackable reference instead of the derived reference."];
+}

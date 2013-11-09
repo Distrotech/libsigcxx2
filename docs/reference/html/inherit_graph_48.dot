@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::slot_iterator\l\< T_slot \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1slot__iterator.html",tooltip="STL-style iterator for slot_list."];
+}

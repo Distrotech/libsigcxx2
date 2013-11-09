@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::dereference_trait\l\< T_type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1dereference__trait.html",tooltip="Deduces the base type of a reference or a pointer."];
+}

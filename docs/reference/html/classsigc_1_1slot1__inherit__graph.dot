@@ -1,0 +1,12 @@
+digraph "sigc::slot1&lt; T_return, T_arg1 &gt;"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  Node1 [label="sigc::slot1\< T_return,\l T_arg1 \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node2 [label="sigc::slot_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1slot__base.html",tooltip="Base type for slots."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node3 [label="sigc::functor_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1functor__base.html",tooltip="A hint to the compiler."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node4 [label="sigc::slot\< T_return,\l T_arg1, nil, nil, nil,\l nil, nil, nil \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1slot_3_01T__return_00_01T__arg1_00_01nil_00_01nil_00_01nil_00_01nil_00_01nil_00_01nil_01_4.html",tooltip="Convenience wrapper for the numbered sigc::slot1 template."];
+}

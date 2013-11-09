@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::bound_argument\l\< reference_wrapper\<\l T_wrapped \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1bound__argument_3_01reference__wrapper_3_01T__wrapped_01_4_01_4.html",tooltip="bound_argument object for a bound argument that is passed by bind() or returned by bind_return() by r..."];
+}

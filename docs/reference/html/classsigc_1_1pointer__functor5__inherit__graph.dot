@@ -1,0 +1,8 @@
+digraph "sigc::pointer_functor5&lt; T_arg1, T_arg2, T_arg3, T_arg4, T_arg5, T_return &gt;"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  Node1 [label="sigc::pointer_functor5\l\< T_arg1, T_arg2, T_arg3,\l T_arg4, T_arg5, T_return \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node2 [label="sigc::functor_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1functor__base.html",tooltip="A hint to the compiler."];
+}

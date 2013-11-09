@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::deduce_result\l_type\< T_functor, T\l_arg1, T_arg2, T_arg3,\l T_arg4, T_arg5, T_arg6,\l T_arg7, I_derives_adaptor_base \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1deduce__result__type.html",tooltip="Deduce the return type of a functor."];
+}

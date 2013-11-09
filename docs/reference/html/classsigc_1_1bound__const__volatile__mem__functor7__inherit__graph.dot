@@ -1,0 +1,11 @@
+digraph "sigc::bound_const_volatile_mem_functor7&lt; T_return, T_obj, T_arg1, T_arg2, T_arg3, T_arg4, T_arg5, T_arg6, T_arg7 &gt;"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sigc::bound_const_volatile\l_mem_functor7\< T_return,\l T_obj, T_arg1, T_arg2, T\l_arg3, T_arg4, T_arg5, T_arg6,\l T_arg7 \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node2 [label="sigc::const_volatile\l_mem_functor7\< T_return,\l T_obj, T_arg1, T_arg2,\l T_arg3, T_arg4, T_arg5,\l T_arg6, T_arg7 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1const__volatile__mem__functor7.html",tooltip="const_volatile_mem_functor7 wraps const volatile methods with 7 argument(s)."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node3 [label="sigc::functor_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1functor__base.html",tooltip="A hint to the compiler."];
+}

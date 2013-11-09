@@ -1,0 +1,10 @@
+digraph "sigc::bound_mem_functor1&lt; T_return, T_obj, T_arg1 &gt;"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  Node1 [label="sigc::bound_mem_functor1\l\< T_return, T_obj, T_arg1 \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node2 [label="sigc::mem_functor1\l\< T_return, T_obj, T\l_arg1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1mem__functor1.html",tooltip="mem_functor1 wraps methods with 1 argument(s)."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node3 [label="sigc::functor_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1functor__base.html",tooltip="A hint to the compiler."];
+}

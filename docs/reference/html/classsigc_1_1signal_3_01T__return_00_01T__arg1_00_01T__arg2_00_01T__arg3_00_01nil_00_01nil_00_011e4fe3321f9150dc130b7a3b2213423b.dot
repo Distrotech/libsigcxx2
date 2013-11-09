@@ -1,0 +1,12 @@
+digraph "sigc::signal&lt; T_return, T_arg1, T_arg2, T_arg3, nil, nil, nil, nil &gt;::accumulated&lt; T_accumulator &gt;"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  Node1 [label="sigc::signal\< T_return,\l T_arg1, T_arg2, T_arg3,\l nil, nil, nil, nil \>::accumulated\l\< T_accumulator \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node2 [label="sigc::signal3\< T_return,\l T_arg1, T_arg2, T_arg3,\l T_accumulator \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsigc_1_1signal3.html",tooltip="Signal declaration."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node3 [label="sigc::signal_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1signal__base.html",tooltip="Base class for the sigc::signal# templates."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node4 [label="sigc::trackable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1trackable.html",tooltip="Base class for objects with auto-disconnection."];
+}

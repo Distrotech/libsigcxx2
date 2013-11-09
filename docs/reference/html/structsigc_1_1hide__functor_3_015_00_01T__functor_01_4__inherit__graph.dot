@@ -1,0 +1,12 @@
+digraph "sigc::hide_functor&lt; 5, T_functor &gt;"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  Node1 [label="sigc::hide_functor\l\< 5, T_functor \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node2 [label="sigc::adapts\< T_functor \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1adapts.html",tooltip="Base type for adaptors."];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node3 [label="sigc::adaptor_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1adaptor__base.html",tooltip="A hint to the compiler."];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Sans"];
+  Node4 [label="sigc::functor_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsigc_1_1functor__base.html",tooltip="A hint to the compiler."];
+}

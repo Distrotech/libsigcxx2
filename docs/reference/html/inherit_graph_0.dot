@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="10",labelfontname="Sans",labelfontsize="10"];
+  node [fontname="Sans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="bind_functor\< I_location,\l T_functor, T_type1, T\l_type2, T_type3, T_type4,\l T_type5, T_type6, T_type7 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbind__functor.html",tooltip="Adaptor that binds an argument to the wrapped functor."];
+}
